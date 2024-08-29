@@ -133,7 +133,7 @@ void encryptByPlayfairCipher(char keyTable[5][5], char digraphs[][2], int size, 
 
 int main() {
     char text_Plain[] = "Department";
-    char key[] = "Information Technology";
+    char key[] = "Computer Science";
     char list1[] = "abcdefghiklmnopqrstuvwxyz";
     char digraphs[10][2]; // Max size is half the length of text_Plain
     char keyTable[5][5];
